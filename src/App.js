@@ -1,7 +1,9 @@
 import "./App.css"
 import React, { useState, useEffect } from "react"
-import firebase from "firebase"
+import firebase from "firebase/app"
+import "firebase/auth"
 import { Helmet } from "react-helmet"
+import {Login} from "doritosxl-login-page"
 
 import Button from "@material-ui/core/Button"
 import MeetingRoomIcon from "@material-ui/icons/MeetingRoom"
@@ -101,11 +103,12 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className="sign_in">
-          <Button onClick={onLogin} variant="contained">
-            Login with google
-          </Button>
-        </div>
+        <Login Header="Welkom bij Ha-pictures" subText="Upload en bekijk afbeeldingen" onClick={onLogin} />
+        // <div className="sign_in">
+        //   <Button onClick={onLogin} variant="contained">
+        //     Login with google
+        //   </Button>
+        // </div>
       )}
     </div>
   )
