@@ -5491,10 +5491,10 @@ domutils@^1.5.1, domutils@^1.7.0:
     dom-serializer "0"
     domelementtype "1"
 
-doritosxl-login-page@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/doritosxl-login-page/-/doritosxl-login-page-0.1.5.tgz#dce433898058ae92625044a5e4eaf975ddccb633"
-  integrity sha512-V9qutfSJsqRH53hlSA8ZoiOPLFSYSuUJi5+N/2QUuT57gDIIlDYiaDOuSzKyVOV6tlSoP3SU+SejD9Dvn4blBg==
+doritosxl-login-page@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/doritosxl-login-page/-/doritosxl-login-page-0.1.7.tgz#580b4db1bd1e1930ea489a1c0436e464330a5d73"
+  integrity sha512-MQPLEoRnJ/XVkdiz1fO7tIQ+gPsjP5ATzbQTl1oVfLYgeMC70ElsFsACE7eA1bwWpjcs1+gnGS9Dv1hsnUvMEA==
   dependencies:
     "@babel/cli" "^7.14.8"
     "@babel/preset-env" "^7.14.8"
