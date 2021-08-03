@@ -3732,6 +3732,13 @@ axe-core@^4.0.2:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.1.2.tgz#7cf783331320098bfbef620df3b3c770147bc224"
   integrity sha512-V+Nq70NxKhYt89ArVcaNL9FDryB3vQOd+BFXZIfO3RP6rwtj+2yqqqdHEkacutglPaZLkJeuXKCjCJDMGPtPqg==
 
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
+
 axobject-query@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
@@ -5491,10 +5498,10 @@ domutils@^1.5.1, domutils@^1.7.0:
     dom-serializer "0"
     domelementtype "1"
 
-doritosxl-login-page@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/doritosxl-login-page/-/doritosxl-login-page-0.1.7.tgz#580b4db1bd1e1930ea489a1c0436e464330a5d73"
-  integrity sha512-MQPLEoRnJ/XVkdiz1fO7tIQ+gPsjP5ATzbQTl1oVfLYgeMC70ElsFsACE7eA1bwWpjcs1+gnGS9Dv1hsnUvMEA==
+doritosxl-login-page@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/doritosxl-login-page/-/doritosxl-login-page-0.1.8.tgz#a9d62b312be804e16662a40e0b95407369e150b3"
+  integrity sha512-MJ/1jIhkDg9Oqw+0MXe8+G3+HDrTNUOY1wJdpgjxxRyX2rNuSomyanz3yR/2/jA0/88V1ZE8WqVgnOem848czA==
   dependencies:
     "@babel/cli" "^7.14.8"
     "@babel/preset-env" "^7.14.8"
@@ -5503,6 +5510,7 @@ doritosxl-login-page@^0.1.7:
     "@testing-library/jest-dom" "^5.11.4"
     "@testing-library/react" "^11.1.0"
     "@testing-library/user-event" "^12.1.10"
+    axios "^0.21.1"
     react-dom "^17.0.2"
     react-scripts "4.0.3"
     web-vitals "^1.0.1"
@@ -6087,6 +6095,11 @@ execa@^4.0.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
+exif-js@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/exif-js/-/exif-js-2.3.0.tgz#9d10819bf571f873813e7640241255ab9ce1a814"
+  integrity sha1-nRCBm/Vx+HOBPnZAJBJVq5zhqBQ=
+
 exit@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
@@ -6403,6 +6416,11 @@ follow-redirects@^1.0.0:
   version "1.13.2"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.2.tgz#dd73c8effc12728ba5cf4259d760ea5fb83e3147"
   integrity sha512-6mPTgLxYm3r6Bkkg0vNM0HTjfGrOEtsfbhagQvbxDEsEkpNhw582upBaoRZylzen6krEmxXJgt9Ju6HiI4O7BA==
+
+follow-redirects@^1.10.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
+  integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
 
 for-in@^1.0.2:
   version "1.0.2"
